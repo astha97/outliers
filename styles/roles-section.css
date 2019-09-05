@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+  .roles-section {
+    grid-template-columns: 3fr 5fr;
+  }
+
+  .roles-section__side-menu {
+    padding: 0 40px;
+    border-right: 1px solid #eaeaea;
+  }
+
+  .roles-section__main {
+    padding: 0px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roles-section__side-menu {
+    position: sticky;
+    top: 0;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .roles-section__main {
+    padding: 12px 0;
+  }
+}
+
+.roles-section {
+  display: grid;
+  width: var(--container-width);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.roles-section__side-menu {
+  display: grid;
+  align-content: start;
+  justify-items: end;
+  gap: 18px;
+  background-color: #fff;
+}
+
+.roles-section__main > * {
+  margin: 0;
+  font-weight: 300;
+}
+
+.roles-section__main > .flat-action {
+  align-self: end;
+  margin-top: 4rem;
+}
+
+.roles-section__main ul {
+  padding: 10px !important;
+}
+
+.roles-section__main li {
+  font-size: 16px;
+  margin: 6px 0;
+}
