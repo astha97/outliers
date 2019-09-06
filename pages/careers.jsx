@@ -5,6 +5,9 @@ import Heading from '../components/Heading';
 import Layout from '../components/Layout';
 import TitleDescGrid from '../components/TitleDescGrid';
 import RolesSection from '../components/RolesSection';
+import Carousel2 from '../components/Carousel2';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import '../styles/carousel.css';
 
 import '../styles/global.css';
 
@@ -48,9 +51,10 @@ function Careers() {
   // };
   return (
     <Layout heroText="우리가 즐거워야 즐거운 서비스가 만들어집니다.">
-      <div className="contact_image">
+    { /* <div className="contact_image">
         <img className="team__image" src="../static/images/career_img-3.jpg" alt="" />
-      </div>
+  </div>*/}
+    <Carousel2/>
       {/* <Carousel data={carouselData} noOfTiles={3} /> */}
       <Heading>
         에이네 팀의 목표달성이 또 하나의 삶의 목표가 되어가는, 책임을 전제한 자유를 즐길 줄 아는
@@ -66,3 +70,4 @@ function Careers() {
 }
 
 export default Careers;
+

@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .title-desc-grid {
     grid-template-columns: repeat(3, 1fr);
+   
   }
 }
 
@@ -11,11 +12,19 @@
   margin: 50px auto;
   justify-items: left;
   gap: 32px;
+
+}
+
+.title-desc-grid__card{
+  border:1px solid;
+  border-color: black;
 }
 
 .title-desc-grid__card > * {
   font-weight: 300;
   margin: 12px auto;
+  text-align: center;
+
 }
 
 .title-desc-grid__card > h3 {

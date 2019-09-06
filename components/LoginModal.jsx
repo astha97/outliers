@@ -19,7 +19,7 @@ class LoginModal extends Component{
     const {  email, password } = this.state;
     return (
       <div className="container">
-          <form>
+          <form class="form-signin">
               <h1>Login</h1>
             Email:<br />
               <input class="form-control" type="email"  className ="input" onChange={this.onChange} name="email" value={email} placeholder="Email Address" required/>
@@ -28,7 +28,7 @@ class LoginModal extends Component{
             <input class="form-control" type="password"  className ="input" onChange={this.onChange} name="password" value={password} placeholder="Password" required/>
            <br/>
            <br/>
-           <a href="www.google.com">forgot your password?</a>
+           <a href="google.co.in">forgot your password?</a>
            <br/>
            <div className="login_btn">
                 <button className="btn" type="submit">LOGIN</button>

@@ -6,7 +6,7 @@ import FlatAction from './FlatAction';
 function Footer() {
   return (
     <div className="footer">
-      <button>login</button>
+    
       <div className="footer_links">
         <div className="footer__column">
           <Link href="/team">
