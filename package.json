@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mckinley-rice/wrayward-clone#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "next": "^8.1.0",
+    "next": "^11.1.3",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-awesome-modal": "^2.0.5",
